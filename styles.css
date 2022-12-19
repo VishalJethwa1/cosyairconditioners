@@ -2,4 +2,25 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: calibri;
+}
+
+/*Styling Navbar*/
+nav{
+    background-color: aliceblue;
+}
+nav>ul{
+    display: flex;
+    justify-content: center;
+}
+nav>ul>li{
+    list-style-type: none;
+    /*margin: 0px 50px;*/
+    padding: 15px 30px;
+    background-color: antiquewhite;
+    text-transform: uppercase;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: darkblue;
 }
