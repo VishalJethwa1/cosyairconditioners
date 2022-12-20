@@ -3,11 +3,15 @@
     border: 0;
     box-sizing: border-box;
     font-family: calibri;
+    font-size: 1.5 rem;
 }
 
 /*Styling Navbar*/
 nav{
-    background-color: aliceblue;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 10px gray;
+    position: sticky;
+    top: 0;
 }
 nav>ul{
     display: flex;
@@ -17,10 +21,17 @@ nav>ul>li{
     list-style-type: none;
     /*margin: 0px 50px;*/
     padding: 15px 30px;
-    background-color: antiquewhite;
     text-transform: uppercase;
 }
 nav>ul>li>a{
     text-decoration: none;
-    color: darkblue;
+    color: darkslategray;
+}
+.hp-bg{
+    background-image: url(./images/ac_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
 }
